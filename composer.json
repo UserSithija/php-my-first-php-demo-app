@@ -1,0 +1,27 @@
+{
+  "name": "sithija/phpproject",
+  "authors": [
+    {
+      "name": "UserSithija",
+      "email": "123794821+UserSithija@users.noreply.github.com"
+    }
+  ],
+  "require": {
+    "illuminate/collections": "^12.16"
+  },
+  "autoload": {
+    "psr-4": {
+      "Core\\": "Core/",
+      "Http\\": "Http/",
+      "Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "pestphp/pest": "^3.8"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
